@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
- <!-- Bootstrap CSS -->
+<html lang="en">
+<head>
+<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+   <!-- Required meta tags -->
+<metacharset="utf-8">
+<metaname="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
 <link
         rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
 "integrity="sha384-
@@ -25,6 +27,7 @@ nymous">
 </script>
 </head>
 <body>
+   
 <!--Menu-->
 
 
@@ -61,17 +64,32 @@ nymous">
 </nav>
 <!--Menu ends-->
 
+<div class="pjcontainer">
+<!--Experience Components-->
 
 
+<div class="jumbotron">
+    <h1 class="display-4"></h1>
+    <p class="lead">db.Blog</p>
+    <hr class="my-4">
+    <p><div class="d-flex align-content-start flex-wrap">
+       <div>{{ content }}</div>
 
-
-    	<div class="pjcontainer>
-    		<div id="main" role="main" class="container">
-      			{{ content }}
-    		</div>
-	</div>	
-
+      </div>
+    </div></p>
+    
    
+</div>
+
+
+
+
+<!--Experience components ends-->
+
+
+
+
+</div>
  <!-- Footer -->
  <footer class="page-footer font-small blue pt-4">
 
