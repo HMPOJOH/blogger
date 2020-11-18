@@ -3,21 +3,22 @@ layout: default
 ---
 
 
-<div class="col p-4 d-flex flex-column position-static"></div>
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div class="jumbotron">
+  <div class="posts">
+    {% for post in site.posts %}
+      <article class="post">
 
-      <h3 class="mb-0"> <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      </h3><p class="card-text mb-auto">
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-    </p>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+        <h1 class="display-4"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <p class="lead">
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+      </p>
+        <a href="{{ site.baseurl }}{{ post.url }}" role="button" class="read-more">Read More</a>
+        </article>
+    {% endfor %}
+  </div>
 </div>
-</div>
+
 
 
