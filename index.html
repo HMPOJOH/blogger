@@ -4,23 +4,23 @@ layout: default
 
 
 
-  <div class="posts">
-    {% for post in site.posts %}
-    <div class="jumbotron"></div>
-      <article class="post">
+ 
 
-        <h1 class="display-4"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        <p class="lead">
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
-      </p>
-        <a href="{{ site.baseurl }}{{ post.url }}" role="button" class="btn btn-primary btn-lg">Read More</a>
-        </article>
+
+{% for post in site.posts %}
+
+<div class="row" >
+  <div class="col-sm">
+        
+    <div class="card"  style="width:auto">
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+        <p class="card-text">Written on {{ page.date | date: "%B %e, %Y" }}<br><hr>
+        <div class="card-text-body">{{ post.excerpt }}</div></p>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-outline-primary">Read More</a>
       </div>
-    {% endfor %}
+    </div>
   </div>
+</div>
 
-
-
-
+{% endfor %}
