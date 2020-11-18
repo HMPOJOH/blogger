@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Trying out prose.io
+comments: true
 ---
 
 

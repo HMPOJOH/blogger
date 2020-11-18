@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My first blog post
+comments: true
 ---
 
 Just a test in order to see how you can set up a blog in a different repository on GitHub using no database.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Trying out Github via iPhone 
+comments: true
 ---
 
 Edit via Github om mobile device 
