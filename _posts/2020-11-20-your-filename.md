@@ -2,6 +2,7 @@
 published: false
 layout: post
 comments: true
+title: test title
 ---
 ## A New Post
 
