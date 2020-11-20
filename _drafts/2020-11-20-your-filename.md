@@ -2,6 +2,7 @@
 published: true
 layout: post
 comments: true
+title: A new blog post
 ---
 ## A New Post
 
