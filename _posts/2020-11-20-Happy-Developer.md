@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title: Happy Developer
+comments: true
 ---
 ## H2 headline
 

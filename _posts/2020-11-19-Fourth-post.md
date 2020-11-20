@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forth post
+title: Trying out prose.io
 comments: true
 ---
 
