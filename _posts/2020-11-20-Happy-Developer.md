@@ -15,6 +15,3 @@ Enter a text using chrome this time. Try to see if it's easier.
 -bullet 2
 1.nr 1
 2.nr 2
-
-
-
