@@ -3,7 +3,7 @@ layout: post
 title: Happy Developer
 comments: true
 ---
-## H2 headline
+
 
 Enter a text using chrome this time. Try to see if it's easier.
 
