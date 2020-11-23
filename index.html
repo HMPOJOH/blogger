@@ -13,7 +13,7 @@ layout: default
       <div class="card"  style="width:auto">
         <div class="card-body">
           <h5 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
-          <p class="card-text"><div class="date">Written on {{ page.date | date: "%B %e, %Y" }}</div><hr>
+          <p class="card-text"><div class="date">Written on {{ post.date | date: "%B %e, %Y" }}</div><hr>
           <div class="card-text-body">{{ post.excerpt }}</div></p>
           <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-outline-primary">Read More</a>
         </div>
